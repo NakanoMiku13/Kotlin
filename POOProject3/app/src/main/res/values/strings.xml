@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">POOProject3</string>
+    <string-array name="countries">
+        <item>Afganistan</item>
+        <item>Angola</item>
+        <item>America</item>
+        <item>Antartica</item>
+        <item>Angola</item>
+    </string-array>
+</resources>
