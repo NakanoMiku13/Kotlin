@@ -20,6 +20,7 @@ typealias funcionAliada = (a: Int,b: Int) -> Int
     SHIFT + SHIFT // Buscar entre archivos
     ESC // Salir de pestaña actual
     CTRL + R // Reemplazar texto en la página actual
+    CTRL + F4 // Cerrar ventana actual
 
     ATAJOS DE MANIPULACIÓN DE CÓDIGO
     ALT + SHIFT + UP // Desplazar código ya sean líneas o bloques hacia arriba
@@ -32,8 +33,9 @@ typealias funcionAliada = (a: Int,b: Int) -> Int
     CTRL + - // Minimizar funciones y con doble - minimizamos al padre
     ALT + RIGHT / LEFT // Nos desplazamos entre archivos abiertos en la cabecera
     CTRL + TAB // Abrimos un menú para poder desplazar entre TODOS los archivos
-
-
+    CTRL + ALT + T // Abrir menú conceptual para anexar código de forma fácil
+    CTRL + F11 // Marcar lineas de código como favoritas
+    F11 // Eliminar lineas de código favoritas
  */
 
 
@@ -87,7 +89,7 @@ class MainActivity : AppCompatActivity() {
     }
     //El any implica que puede devolver cualquier cosa
     private fun value_try(a: Int, b: Int): Any{
-        var er =
+        val er =
             try{
                 a/b
             }catch (error: Exception){
@@ -357,8 +359,25 @@ class MainActivity : AppCompatActivity() {
 
         //Viewgroups son invisibles
 
-
-
+        //Servicios
+        /*
+            Son componentes que ejecutan código en segundo plano y de forma independiente
+            al ciclo del programa original   ee .-´dxsded       eeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+         */
+        //Broadcast recievers
+        /*
+            Son elementos que reaccionan a ciertas actividades del celular;
+            como sí está en modo avión, la red wifi y demás y se produce un trigger
+         */
+        //Intents
+        /*
+            Es un objeto de mensajería que se puede usar para solicitar una acción
+            de otro componente de una app.
+         */
+        //Content providers
+        /*
+            Administra el acceso a un repositorio central de datos.
+         */
 
     }
 }
